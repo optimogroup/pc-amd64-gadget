@@ -26,3 +26,11 @@ parts:
     plugin: make
     after: [grub-prepare]
 
+slots:
+    serial-port-scale:
+        interface: serial-port
+        path: /dev/ttyS4
+
+    serial-port-rfid:
+        interface: serial-port
+        path: /dev/ttyACM0
