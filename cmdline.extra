@@ -1,1 +1,1 @@
-acpi=force
+acpi=noirq
