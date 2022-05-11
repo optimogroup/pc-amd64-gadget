@@ -1,1 +1,1 @@
-acpi=noirq
+modprobe.blacklist=pinctrl_elkhartlake
