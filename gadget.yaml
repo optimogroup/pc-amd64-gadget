@@ -55,6 +55,7 @@ volumes:
         filesystem: ext4
         type: 83,0FC63DAF-8483-4772-8E79-3D69D8477DE4
         size: 1G
+
 defaults:
   BPZbvWzvoMTrpec4goCXlckLe2IhfthK:
     config: |
@@ -62,3 +63,9 @@ defaults:
       wallpaper-bottom=0x003567
       cursor=null
     daemon: true
+
+connections:
+  - plug: pcds-kiosk:serial-port
+    slot: pc:serial-port-scale
+  - plug: pcds-kiosk:serial-port
+    slot: pc:serial-port-rfid
