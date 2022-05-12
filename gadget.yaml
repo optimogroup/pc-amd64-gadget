@@ -64,8 +64,8 @@ defaults:
       cursor=null
     daemon: true
 
-connections:
-  - plug: pcds-kiosk:serial-port
-    slot: pc:serial-port-scale
-  - plug: pcds-kiosk:serial-port
-    slot: pc:serial-port-rfid
+#connections:
+#  - plug: pcds-kiosk:serial-port
+#    slot: pc:serial-port-scale
+#  - plug: pcds-kiosk:serial-port
+#    slot: pc:serial-port-rfid
