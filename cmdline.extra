@@ -1,1 +1,3 @@
+quiet
+splash
 modprobe.blacklist=pinctrl_elkhartlake
