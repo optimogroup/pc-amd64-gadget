@@ -5,12 +5,12 @@
     "architecture": "amd64",
     "authority-id": "UzAcKJznn6Gx7MTGYasKpgmEJtwUccoG",
     "brand-id": "UzAcKJznn6Gx7MTGYasKpgmEJtwUccoG",
-    "timestamp": "2023-03-14T00:34:40+00:00",
+    "timestamp": "2023-03-14T02:47:49+00:00",
     "base": "core22",
     "grade": "dangerous",
     "snaps": [
         {
-            "name": "pc-pcds",
+            "name": "pc",
             "type": "gadget"
         },
         {
