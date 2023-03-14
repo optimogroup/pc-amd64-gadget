@@ -1,3 +1,2 @@
-console=tty12
 quiet
 modprobe.blacklist=pinctrl_elkhartlake
