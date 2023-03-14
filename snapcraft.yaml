@@ -28,3 +28,12 @@ hooks:
       # for instructions on how to generate an API key
       # DO NOT check this API key into a publicly accessible VCS
       MODEL_APIKEY: ""
+
+slots:
+  serial-port-scale:
+    interface: serial-port
+    path: /dev/ttyS4
+
+  serial-port-rfid:
+    interface: serial-port
+    path: /dev/ttyACM0
