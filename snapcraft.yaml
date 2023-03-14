@@ -16,7 +16,7 @@ parts:
       - ubuntu-dev-tools
     override-build: |
       snapcraftctl build
-      cp cmdline.extra $SNAPCRAFT_PART_INSTALL/
+      cp cmdline.full $SNAPCRAFT_PART_INSTALL/
     plugin: make
 
 hooks:
